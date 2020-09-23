@@ -30,7 +30,7 @@ function STONE() {
         container.appendChild(element)
     }else{
         const rock = document.createElement('img');
-        rock.setAttribute("src", "media/icons/tijeras-48.png");
+        rock.setAttribute("src", "media/icons/tijeras.png");
         const containerJugador = document.getElementById('maquina');
         containerJugador.appendChild(rock);
 
@@ -69,7 +69,7 @@ function PAPER() {
         container.appendChild(element)
     }else{
         const rock = document.createElement('img');
-        rock.setAttribute("src", "media/icons/tijeras-48.png");
+        rock.setAttribute("src", "media/icons/tijeras.png");
         const containerJugador = document.getElementById('maquina');
         containerJugador.appendChild(rock);
 
@@ -108,7 +108,7 @@ function SCISSORS() {
         container.appendChild(element)
     }else{
         const rock = document.createElement('img');
-        rock.setAttribute("src", "media/icons/tijeras-48.png");
+        rock.setAttribute("src", "media/icons/tijeras.png");
         const containerJugador = document.getElementById('maquina');
         containerJugador.appendChild(rock);
 
