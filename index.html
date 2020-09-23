@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Piedra, Papel o Tijeras</h1>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="options">
+                <img class="stone" onclick="STONE()" id="stone" src="media/icons/rock-48.png"/>
+                <img class="paper" onclick="PAPER()" id="paper" src="media/icons/archivo-64.png"/>
+                <img class="scissors" onclick="SCISSORS()" id="scissors" src="media/icons/tijeras-up.png"/>
+            </div>
+            <div class="answer" id="answer"></div>
+            <a href="index.html">
+                <button onclick="borrar()">Limpiar</button>
+            </a>
+        </div>
+    </section>
+    <div class="respuesta-container" id="container">
+        <div class="maquina" id="maquina"></div>
+        <div class="jugador" id="jugador"></div>
+    </div>
+    <script src="js/index.js">
+    </script>
+</body>
+</html>
